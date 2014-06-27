@@ -1,16 +1,16 @@
 " rdark-terminal2 - vim color scheme
 "
 " Modified: Radu-Sebastian Marinescu
-" Last Change: 2014 Jun 24
-" Version: 0.1
+" Last Change: 2014 Jun 27
+" Version: 0.2
 "
 " Based on rdark-terminal of Lukas Grässlin
 " (http://www.vim.org/scripts/script.php?script_id=3202)
 " which ported the rdark colorscheme for 256 colors.
 " (http://www.vim.org/scripts/script.php?script_id=1732)
 "
-" Info: rdark-terminal2 enhances visibility for CursorLine, Type, Special and
-" ColorColumn.
+" Info: rdark-terminal2 enhances visibility for CursorLine, Type, Special,
+" ColorColumn and IncSearch
 "
 hi clear
 let colors_name="rdark-terminal2"
@@ -53,7 +53,7 @@ hi StatusLineNC term=reverse cterm=NONE ctermbg=240 ctermfg=16
 hi VertSplit term=reverse cterm=NONE ctermbg=NONE ctermfg=59
 hi Directory term=bold cterm=NONE ctermbg=NONE ctermfg=231
 hi ErrorMsg term=NONE cterm=NONE ctermbg=196 ctermfg=231
-hi IncSearch term=reverse cterm=NONE ctermbg=215 ctermfg=23
+hi IncSearch term=reverse cterm=NONE ctermbg=226 ctermfg=23
 hi Search term=reverse cterm=NONE ctermbg=215 ctermfg=23
 hi MoreMsg term=bold cterm=bold ctermbg=NONE ctermfg=74
 hi ModeMsg term=bold cterm=bold ctermbg=NONE ctermfg=fg
