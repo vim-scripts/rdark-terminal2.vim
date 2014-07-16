@@ -1,8 +1,8 @@
 " rdark-terminal2 - vim color scheme
 "
 " Modified: Radu-Sebastian Marinescu
-" Last Change: 2014 Jun 27
-" Version: 0.2
+" Last Change: 2014 Jul 16
+" Version: 0.3
 "
 " Based on rdark-terminal of Lukas Grässlin
 " (http://www.vim.org/scripts/script.php?script_id=3202)
@@ -40,7 +40,7 @@ hi PreProc term=underline cterm=NONE ctermbg=NONE ctermfg=215
 hi Type term=underline cterm=NONE ctermbg=NONE ctermfg=108
 hi LineNr term=underline cterm=NONE ctermbg=NONE ctermfg=59
 hi ExtraWhitespace term=NONE cterm=NONE ctermbg=NONE ctermfg=fg
-hi Visual term=reverse cterm=NONE ctermbg=102 ctermfg=255
+"hi Visual term=reverse cterm=NONE ctermbg=90 ctermfg=255
 
 hi Pmenu term=NONE cterm=NONE ctermbg=16 ctermfg=250
 hi PmenuSel term=NONE cterm=NONE ctermbg=61 ctermfg=231
